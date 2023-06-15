@@ -1,0 +1,25 @@
+.header{
+    background: #12B112;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.nav button{
+    padding: 0.5rem 1rem;
+    border: none;
+    margin-left: 1rem;
+}
+.nav .login{
+    margin-left: 3rem;
+}
+.logo{
+    text-transform: capitalize;
+}

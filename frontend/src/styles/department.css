@@ -1,0 +1,47 @@
+.department_title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #12B112;
+}
+
+.department_title input{
+    border: 2px solid #12B112;
+    padding: .5rem 1rem;
+    border-radius: 4rem;
+}
+
+.department_title input::placeholder{
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+.department_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+    gap: 2rem;
+    grid-template-rows: 100px;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.department{
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, .1);
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1rem;
+    transition: all .2s ease-in-out;
+    
+}
+.department:hover{
+    box-shadow: 0px 5px 8px #12B112;
+}
+
+.year{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, .73);
+    
+}
+.year span{
+    display: block;
+}
